@@ -4,4 +4,50 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     line-height: normal;
+    
+}
+.btn-primary{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+/* nav style section */
+.banner{
+    display: flex;
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+    align-items: center;
+
+
+}
+.banner-content{
+   margin-left: 240px;
+
+}
+.banner-tittle{
+    width: 708px;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+.banner .profile-pic{
+    width: 635px;
+    height: 850px;
+    flex-shrink: 0;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    padding-right: 240px;
+    padding-left: 97px;
+    padding-bottom: 0px;
+    
+
 }
