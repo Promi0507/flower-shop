@@ -15,8 +15,10 @@ body {
     background: #E55473;
     color: #FFF;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     margin-bottom: 147px;
+    
+
     
 }
 
@@ -51,7 +53,7 @@ body {
 }
 .banner .profile-pic{
     width: 635px;
-    height: 850px;
+    height: 750px;
     flex-shrink: 0;
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     padding-right: 240px;
@@ -63,7 +65,7 @@ body {
 /* main section styles */
 main{
     width: 1920px;
-    height: 4867px;
+    height: 3650px;
     background: #FFF;
     
 
@@ -71,6 +73,7 @@ main{
 /* featured section styles */
 .featured{
     text-align: center;
+    padding-top: 178px;
 }
 .section-tittle{
     color: #272727;
@@ -192,6 +195,9 @@ main{
     font-weight: 800;
     padding: 230px 120px 0px 410px;
 }
+.off{
+    color: #E55473;
+}
 .deal-description{
     width: 594px;
     color: rgba(39, 39, 39, 0.60);
@@ -227,6 +233,7 @@ main{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 128px;
 }
 .app-description{
     text-align: center;
@@ -246,20 +253,23 @@ main{
     /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     
 }
+/* latest deal section style */
 .latest-deals{
     width: 1440px;
-    height: 550px;
+    height: 460px;
     flex-shrink: 0;
     border-radius: 8px;
     background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
     margin: 128px 240px 0px 240px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
 }
 .deal-tittle{
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    padding-top: 122px;
+    padding: 120px 0px 10px 0px;
 }
 .deal-percentage{
     color: rgba(39, 39, 39, 0.60);
@@ -267,12 +277,13 @@ main{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
+    
 
     
 }
 .email-detail{
     width: 700px;
-    height: 64px;
+    height: 0px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
@@ -281,4 +292,48 @@ main{
     font-weight: 400;
     margin: 48px 16px 121px 287px;
     padding: 23px 0px 22px 22px;
+}
+.subscribe{
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/* footer section style */
+.about-flowershop{
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    margin-top: 128px;
+}
+.shop-tittle{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 128px;
+    
+}
+.text{
+    color: #FFF;
+}
+.shop-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.shop-details{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px; 
+    font-weight: 400;
+    padding-bottom: 128px;
 }
